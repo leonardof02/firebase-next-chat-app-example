@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import useMessages from "../hooks/useMessages";
 import MessageBuble from "./MessageBuble";
 import { useAuthState } from "react-firebase-hooks/auth";

@@ -1,4 +1,4 @@
-import { addDoc, collection, doc, getDocs } from "firebase/firestore";
+import { addDoc, collection, getDocs } from "firebase/firestore";
 import { Message } from "../domain/entities/Message";
 import { IMessageRepository } from "../domain/interfaces/IMessageRepository";
 import { store } from "@/src/infrastructure/FirebaseServices";
