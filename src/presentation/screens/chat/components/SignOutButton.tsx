@@ -1,7 +1,6 @@
 "use client";
 import { auth } from "@/src/infrastructure/FirebaseServices";
 import { useAuthState } from "react-firebase-hooks/auth";
-import { useRouter } from "next/navigation";
 
 export default function SignOutButton() {
   const [user] = useAuthState(auth);
