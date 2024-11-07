@@ -5,7 +5,6 @@ import { useRouter } from "next/navigation";
 
 export default function SignOutButton() {
   const [user] = useAuthState(auth);
-  const router = useRouter();
 
   async function signOut() {
     await auth.signOut();
